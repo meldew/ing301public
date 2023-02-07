@@ -6,8 +6,9 @@ class Person:
     counter = 1
 
     def __init__(self):
-        self.name = f"Person {Person.counter}"
+        self.name = f"Person {Person.counter}" 
         Person.counter += 1
+        
         self.married_to = None
 
     def marry(self, other):
@@ -23,6 +24,7 @@ class Person:
 
 p1 = Person()
 p2 = Person()
+
 
 
 p1.marry(p2)
